@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+
+	<title>Cadastrar</title>
+
+    <!-- bootstrap -->
+    <link href="_css/bootstrap.css" rel="stylesheet">
+    <!--glyphicon-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- my css -->
+    <link href="_css/style.css" rel="stylesheet">
+
+</head>
+<body id="page-register" >
+
+	<header id="my-header" >
+		<img id="logomarca-header" height="50px" src="_img/logo-icon.png">
+	</header>
+
+	<div id="div-form" class="container-fluid text-center" >
+		<div class="col-sm-3 aling-center" >
+			
+			<h1>Cadastrar</h1>
+			<form action="cadastro.php" method="POST" >
+				<input  class="form-control" placeholder="Como devemos te chamar?" type="text" name="name" >
+				<input required class="form-control" placeholder="Email" type="text" name="email">
+				<input  class="form-control" placeholder="Confimar email" type="email" name="confirm-email">
+				<input required class="form-control" placeholder="Senha" type="password"  name="password">
+				<input  class="form-control" placeholder="Confirmar senha" type="password" name="confirm-password">
+				
+				<button class="btn btn-lg btn-round btn-blue col-xs-12 col-sm-6 aling-center" type="submit" id="button-submit">Cadastrar</button>
+			</form>
+
+			<div id="change-for" class="col-sm-12 col-xs-12 ">
+				
+				<p>Já tem uma conta? <a href="index.html">Entrar</a></p>
+			</div>
+		</div>
+	</div>
+
+	<footer id="my-footer">
+		
+		<div id="sponsors-register" class="aling-center">
+			<hr>
+				<a href="http://fapce.edu.br/" target="_blank" ><img height="50px" src="_img/logo-fap.png"></a>
+				
+				<a href="http://nexti.fapce.edu.br" target="_blank" ><img  height="50px" src="_img/logo-nexti.png"></a>
+		</div>		
+		
+		<div id="copy-footer-register" class="col-xs-12 col-sm-12" >
+			© Núcleo de Extensão em Tecnologia da Informação 
+		</div>	
+	</footer>
+</body>
+</html>

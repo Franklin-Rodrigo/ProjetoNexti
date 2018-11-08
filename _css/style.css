@@ -1,0 +1,189 @@
+/*alinhar*/
+.aling-center{float: none; margin: 0 auto; text-align: center; }
+.aling-right{float: right; text-align: right; }
+.aling-left{float: left; text-align: left;}
+
+
+/*** button ***/
+
+/*button arredondado*/
+.btn-round{
+	border-radius: 25px; 
+}
+
+.btn-blue{
+	color: #fff;
+	background-color: #2d5a87;
+}
+.btn-blue:hover{
+	color: #fff;
+    background-color: #1b293d;
+}
+
+button#button-submit{
+	margin-top: 55px;
+}
+
+/*cabeçalho*/
+#my-header{
+	color: #fff;	
+	background-color: #2d5a87;
+	height: 80px;
+	text-align: center;
+}
+
+#logomarca-header{
+	margin-top: 15px;
+}
+
+/*corpo comum*/
+body {
+    color: #000000;
+    background-color: #fff;
+}
+
+/*formularios*/
+.form-control {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 0;
+    webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+input[type=email], input[type=password], input[type=text] {
+    margin: 5px 0 2px 0;
+    margin-top: 20px;
+    display: inline-block;
+    border-style: none;
+    border-bottom: 1px solid #323232;
+}
+
+/*alterar entre login e cadastrar*/
+div#change-for{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+/*rodape*/
+#my-footer{
+	height: 60px;
+	text-align: center;
+	display: block;
+}
+
+#copy-footer{
+	margin-top: 10px;
+	color: #fff;
+	background-color: #323232;
+	font-size: 10pt;
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/*patrocinadores*/
+#sponsors{
+	margin-top: -9px;
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-height: 600px) {
+   	#sponsors {
+		position:unset; 
+		height: 40px;
+    }
+    
+    #copy-footer {
+    	position:unset;
+    	font-size: 8pt;
+    }
+}
+
+/*------------------------Register-----------------*/
+#copy-footer-register{
+	margin-top: 10px;
+	color: #fff;
+	background-color: #323232;
+	font-size: 10pt;
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/*patrocinadores*/
+#sponsors-register{
+	margin-top: -9px;
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-height: 667px) {
+   	#sponsors-register{
+		position:unset; 
+		height: 40px;
+    }
+    
+    #copy-footer-register{
+    	position:unset;
+    	font-size: 8pt;
+    }
+}
+/*Biblioteca*/
+
+#table-bi{
+    margin-top: 40px;
+}
+
+#h1-bi{
+    margin-top: 40px;
+}
+    
+    #copy-footer-bi{
+    margin-top: 10px;
+    color: #fff;
+    background-color: #323232;
+    font-size: 10pt;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/*patrocinadores*/
+/*#sponsors-bi{
+    margin-top: -9px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-height: 568px) {
+    #sponsors-bi{
+        position:unset; 
+        height: 40px;
+    }
+    
+    #copy-footer-bi{
+        position:unset;
+        font-size: 8pt;
+    }
+}*/

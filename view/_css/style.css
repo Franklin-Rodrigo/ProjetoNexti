@@ -1,0 +1,67 @@
+/*alinhar*/
+.aling-center{float: none; margin: 0 auto;}
+.aling-right{float: right;}
+.aling-left{float: left;}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+div#content {
+  padding: 20px;
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+.footer,
+.push{
+  height: 50px;
+}
+/*** button ***/
+
+/*button arredondado*/
+.btn-round{
+	border-radius: 25px; 
+}
+
+.btn-blue{
+	color: #fff;
+	background-color: #2d5a87;
+}
+.btn-blue:hover{
+	color: #fff;
+    background-color: #1b293d;
+}
+
+/*formularios*/
+.form-control {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 0;
+    webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+input[type=email], input[type=password], input[type=text] {
+    margin: 5px 0 2px 0;
+    display: inline-block;
+    border-style: none;
+    border-bottom: 1px solid #1b293d;
+}
+
+/*alterar entre login e cadastrar*/
+a#change-for{
+	text-decoration: none; 
+}
+
+#change-for{
+}
+
+
+
+/*A partir daqui é library*/
+
+
+
+
+  /*  background-color: rgba(128,128,128,.5);*/
